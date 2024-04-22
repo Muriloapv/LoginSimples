@@ -1,0 +1,56 @@
+body {
+    /* background-image: url(https://cdn.pixabay.com/photo/2014/04/27/00/43/traffic-332857_1280.jpg); */
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/22/31/architecture-1837176_1280.jpg);
+    background-size:cover;
+    display: block;
+    box-sizing: content-box;
+    background-repeat: no-repeat;
+    
+    margin: 0px;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.box-information {
+   /*  border: 1px solid rgb(255, 0, 0); */
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    margin: 100px;
+    padding: 60px;
+    backdrop-filter:blur( 13.5px );
+    border-radius: 10%;
+}
+
+.senha{
+    display: flex;
+}
+
+.box-information p {
+    margin: 10px;
+}
+
+.box-information input {
+    margin: 10px;
+    max-width: 1010px;
+}
+
+.esqueci{
+    text-align: center;
+}
+.esqueci a {
+    color:rgb(114, 10, 10)
+}
+.box-information h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
